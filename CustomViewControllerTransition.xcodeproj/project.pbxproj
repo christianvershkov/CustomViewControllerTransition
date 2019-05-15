@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58232F4F22708767003472C7 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58232F4E22708767003472C7 /* ContainerViewController.swift */; };
+		58232F562271DE62003472C7 /* SwipeTransitionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58232F552271DE62003472C7 /* SwipeTransitionContext.swift */; };
+		58232F582271EA8D003472C7 /* PercentDrivenInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58232F572271EA8D003472C7 /* PercentDrivenInteractiveTransition.swift */; };
 		58D50DAC226F11ED00E31B39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D50DAB226F11ED00E31B39 /* AppDelegate.swift */; };
-		58D50DAE226F11ED00E31B39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D50DAD226F11ED00E31B39 /* ViewController.swift */; };
-		58D50DB1226F11ED00E31B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D50DAF226F11ED00E31B39 /* Main.storyboard */; };
 		58D50DB3226F11EE00E31B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D50DB2226F11EE00E31B39 /* Assets.xcassets */; };
 		58D50DB6226F11EE00E31B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D50DB4226F11EE00E31B39 /* LaunchScreen.storyboard */; };
+		58D50DBE226F56B000E31B39 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D50DBD226F56B000E31B39 /* FirstViewController.swift */; };
+		58D50DC0226F56BD00E31B39 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D50DBF226F56BD00E31B39 /* SecondViewController.swift */; };
+		58D50DC2226F579000E31B39 /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D50DC1226F579000E31B39 /* SwipeAnimator.swift */; };
+		58D50DC4226F5E1D00E31B39 /* SwipeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D50DC3226F5E1D00E31B39 /* SwipeInteractor.swift */; };
+		58F1DBA02289BAA700DD87F9 /* InteractableAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F1DB9F2289BAA700DD87F9 /* InteractableAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58232F4E22708767003472C7 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		58232F552271DE62003472C7 /* SwipeTransitionContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTransitionContext.swift; sourceTree = "<group>"; };
+		58232F572271EA8D003472C7 /* PercentDrivenInteractiveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentDrivenInteractiveTransition.swift; sourceTree = "<group>"; };
 		58D50DA8226F11ED00E31B39 /* CustomViewControllerTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomViewControllerTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D50DAB226F11ED00E31B39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58D50DAD226F11ED00E31B39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		58D50DB0226F11ED00E31B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58D50DB2226F11EE00E31B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58D50DB5226F11EE00E31B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58D50DB7226F11EE00E31B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58D50DBD226F56B000E31B39 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		58D50DBF226F56BD00E31B39 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		58D50DC1226F579000E31B39 /* SwipeAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAnimator.swift; sourceTree = "<group>"; };
+		58D50DC3226F5E1D00E31B39 /* SwipeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeInteractor.swift; sourceTree = "<group>"; };
+		58F1DB9F2289BAA700DD87F9 /* InteractableAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractableAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				58D50DAB226F11ED00E31B39 /* AppDelegate.swift */,
-				58D50DAD226F11ED00E31B39 /* ViewController.swift */,
-				58D50DAF226F11ED00E31B39 /* Main.storyboard */,
+				58D50DBD226F56B000E31B39 /* FirstViewController.swift */,
+				58D50DBF226F56BD00E31B39 /* SecondViewController.swift */,
 				58D50DB2226F11EE00E31B39 /* Assets.xcassets */,
 				58D50DB4226F11EE00E31B39 /* LaunchScreen.storyboard */,
 				58D50DB7226F11EE00E31B39 /* Info.plist */,
+				58232F4E22708767003472C7 /* ContainerViewController.swift */,
+				58D50DC1226F579000E31B39 /* SwipeAnimator.swift */,
+				58D50DC3226F5E1D00E31B39 /* SwipeInteractor.swift */,
+				58232F572271EA8D003472C7 /* PercentDrivenInteractiveTransition.swift */,
+				58232F552271DE62003472C7 /* SwipeTransitionContext.swift */,
+				58F1DB9F2289BAA700DD87F9 /* InteractableAnimator.swift */,
 			);
 			path = CustomViewControllerTransition;
 			sourceTree = "<group>";
@@ -124,7 +142,6 @@
 			files = (
 				58D50DB6226F11EE00E31B39 /* LaunchScreen.storyboard in Resources */,
 				58D50DB3226F11EE00E31B39 /* Assets.xcassets in Resources */,
-				58D50DB1226F11ED00E31B39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +152,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58D50DAE226F11ED00E31B39 /* ViewController.swift in Sources */,
+				58D50DC0226F56BD00E31B39 /* SecondViewController.swift in Sources */,
+				58F1DBA02289BAA700DD87F9 /* InteractableAnimator.swift in Sources */,
+				58D50DC2226F579000E31B39 /* SwipeAnimator.swift in Sources */,
+				58D50DC4226F5E1D00E31B39 /* SwipeInteractor.swift in Sources */,
 				58D50DAC226F11ED00E31B39 /* AppDelegate.swift in Sources */,
+				58232F4F22708767003472C7 /* ContainerViewController.swift in Sources */,
+				58D50DBE226F56B000E31B39 /* FirstViewController.swift in Sources */,
+				58232F562271DE62003472C7 /* SwipeTransitionContext.swift in Sources */,
+				58232F582271EA8D003472C7 /* PercentDrivenInteractiveTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		58D50DAF226F11ED00E31B39 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58D50DB0226F11ED00E31B39 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		58D50DB4226F11EE00E31B39 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
